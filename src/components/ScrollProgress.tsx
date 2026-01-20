@@ -50,7 +50,7 @@ export const ScrollProgress = () => {
                         animate={{ opacity: 1, scale: 1 }}
                         exit={{ opacity: 0, scale: 0.5 }}
                         onClick={scrollToTop}
-                        className="fixed bottom-8 right-8 p-3 bg-slate-900 text-white rounded-full shadow-lg shadow-slate-900/20 hover:bg-slate-800 transition-colors z-[90] group cursor-pointer"
+                        className="fixed bottom-15 right-8 p-3 bg-slate-900 text-white rounded-full shadow-lg shadow-slate-900/20 hover:bg-slate-800 transition-colors z-[90] group cursor-pointer"
                         aria-label="Scroll to top"
                     >
                         <ArrowUp size={24} className="group-hover:-translate-y-1 transition-transform" />
