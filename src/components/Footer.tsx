@@ -34,7 +34,7 @@ export const Footer = () => {
                                 }}
                             >
                                 <a
-                                    href="https://zcode.site"
+                                    href="https://zcode.itslab.online/"
                                     target="_blank"
                                     rel="noopener noreferrer"
                                 >

@@ -4,7 +4,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     const baseUrl = "https://salehkhalifa.itslab.online"; // Replace with your actual domain
 
     // Define your static routes here
-    const routes = ["", "/#about", "/#skills", "/#projects", "/#contact"];
+    const routes = ["", "/#about", "/#skills", "/#contact"];
 
     return routes.map((route) => ({
         url: `${baseUrl}${route}`,
